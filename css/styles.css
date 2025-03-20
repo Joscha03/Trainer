@@ -2,18 +2,16 @@
     background-color: #ffffff;
     padding: 10px 0;
     width: 100%;
-    top: 0px;
-    border-style:outset;
-    border-width: 3px;
-    border-color: rgb(247, 247, 247);                 
+    top: 0px;                
 }
 
 .navbar-list{
     display: flex;
-    justify-content:space-around;  
+    justify-content:flex-start;  
     align-items: center;
     list-style-type: none;
     font-size: large;
+    margin-left: 200px;
 }
 
 .navbar-list a{
@@ -23,15 +21,42 @@
 }
 
 .navbar-list a:hover {
-    color: rgb(0, 64, 255);
-    box-shadow: 2px 2px 2px 2px rgb(116, 115, 115) inset; 
+    color: rgb(148, 72, 72);
 }
 
 .logo{
-    margin-left: 50.5%;
-    font-size: xx-large;
+    text-align: center;
+    font-size: x-large;
 }
 
 body{
 background-color: #ffffff;
+}
+
+.line{
+    height: 1px;
+    background-color: rgb(190, 190, 190);
+}
+
+.mockup-image{
+    display: grid;
+    place-items: center;
+    margin-left: 200px;
+    margin-top: 100px;
+    height: 500px;
+    width: 500px;
+    border-style: ridge;
+    border-color: black;
+    border-radius: 5px;
+    border-width: 5px;
+}
+
+.container{
+    width: 550px;
+    height: 550px;
+    display: flex;
+}
+
+.product-info{
+
 }
