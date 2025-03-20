@@ -1,7 +1,37 @@
-#logo{
+.navbar{
+    background-color: #ffffff;
+    padding: 10px 0;
+    width: 100%;
+    top: 0px;
+    border-style:outset;
+    border-width: 3px;
+    border-color: rgb(247, 247, 247);                 
+}
+
+.navbar-list{
     display: flex;
-    justify-content: center;
-    height: 75px;
-    width: 75px;
-    
+    justify-content:space-around;  
+    align-items: center;
+    list-style-type: none;
+    font-size: large;
+}
+
+.navbar-list a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 8px;
+}
+
+.navbar-list a:hover {
+    color: rgb(0, 64, 255);
+    box-shadow: 2px 2px 2px 2px rgb(116, 115, 115) inset; 
+}
+
+.logo{
+    margin-left: 50.5%;
+    font-size: xx-large;
+}
+
+body{
+background-color: #ffffff;
 }
